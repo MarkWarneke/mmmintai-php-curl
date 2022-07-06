@@ -32,6 +32,13 @@ body:
     validations:
       required: true
   - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
     id: version
     attributes:
       label: Version
@@ -49,3 +56,30 @@ body:
       description: Add any other context about the problem here.
       placeholder: Tell how to get there!
 ---
+
+**Describe the bug**
+A clear and concise description of what the bug is.
+
+**To Reproduce**
+Steps to reproduce the behavior:
+
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
+
+**Expected behavior**
+A clear and concise description of what you expected to happen.
+
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
+
+**Relevant log output***
+Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+
+```shell
+
+```
+
+**Additional context**
+Add any other context about the problem here.
